@@ -1,0 +1,18 @@
+{
+  "routes": [
+    {
+      "path": "/test",
+      "method": "GET",
+      "host": "localhost",
+      "port": 5000
+    },
+    {
+      "path": "/test",
+      "method": "POST",
+      "host": "localhost",
+      "port": 5000,
+      "connectTimeout": 5000
+    }
+  ],
+  "http.port": 8080
+}
